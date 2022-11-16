@@ -1,6 +1,6 @@
 * {
     font-family: "Segoe UI", Tahoma;
-    color:#1ebe7b;
+    color:#04d4b8;;
  
   }
   
@@ -8,8 +8,8 @@
     background: linear-gradient(115deg, #0c090f, #10094b, #0a0311);
     min-height: 100vh;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     }
 
 .calculadora {
@@ -37,11 +37,13 @@ button {
 }
 
 button:hover {
-    background: #28f09c;
+    background: #04d4b8;
+    
 }
 
+
 button:active {
-    background-color: rgb(44, 171, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 button:focus {
@@ -64,7 +66,7 @@ button:focus {
     text-align: right;
     justify-content: space-between;
     word-break: break-all;
-    box-shadow: 0px 0px 0px 10px #1ebe7b;
+    box-shadow: 0px 0px 0px 10px #04d4b8;;
 }
 
 #current-valor {
