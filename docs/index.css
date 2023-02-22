@@ -5,7 +5,7 @@
   }
   
   body{
-    background: linear-gradient(115deg, #0c090f, #10094b, #0a0311);
+    background: linear-gradient(115deg, #0c090f, #200053, #0a0311);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -38,6 +38,7 @@ button {
 
 button:hover {
     background: #04d4b8;
+    color:#000000;
     
 }
 
@@ -66,7 +67,7 @@ button:focus {
     text-align: right;
     justify-content: space-between;
     word-break: break-all;
-    box-shadow: 0px 0px 0px 10px #04d4b8;;
+    box-shadow: 0px 0px 0px 10px #04d4b8;
 }
 
 #current-valor {
